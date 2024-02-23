@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.taskInput {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.addTaskBtn {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.completedTask {
+    background-color: #e0e0e0; /* Light gray background for completed tasks */
+}
+
+.taskItem button {
+    cursor: pointer;
+}
+
